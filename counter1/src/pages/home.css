@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.counter-challange-body{
+    background: linear-gradient(50deg,red,green);
+    height: 100vh;
+
+}
+h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+.btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.btns{
+    padding: 8px 15px;
+    background-color: rgb(54, 27, 79);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.button1{
+    background-color: red;
+}
+.button2{
+    background: linear-gradient(50deg,red,rgb(52, 17, 85));
+}
+.count{
+    margin-left: 80px;
+}
+.button4{
+    background-color: black;
+
+}

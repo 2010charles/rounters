@@ -1,0 +1,24 @@
+.nav-bar{
+    height: 78px;
+    width: 100%;
+    background-color:rgb(52, 11, 92);
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul li{
+    display: inline;
+    margin-left: 70px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform:uppercase ;
+}
+.right1{
+    color:white;
+}
+
